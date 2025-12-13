@@ -221,3 +221,30 @@ solidified best practices for backend database modeling.
 Once all tests are passing and your finalized code is pushed 
 to the main branch of your GitHub repo, submit your repo to
 CodeGrade through Canvas.
+
+
+# Flask SQLAlchemy Relationships Lab
+This project demonstrates SQLAlchemy relationships in a Flask application.
+
+## Features
+	•	One-to-many relationship
+	•	Many-to-many relationship
+	•	One-to-one relationship
+	•	REST API endpoints
+	•	All tests passing
+
+### Run the app
+```bash 
+python server/app.py
+```
+App runs on:
+```bash
+http://localhost:5555
+```
+### Run tests
+```bash
+pytest
+``` 
+## Screenshot of tests:
+
+![All tests passing](screenshot.png)
